@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+:root{
+    --cor-principal: linear-gradient(to left, #434343 0%, black 100%);
+    --cor-secundaria: linear-gradient(20deg, #22096b 0%, #22badc 100%);;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-image: var(--cor-principal);
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    background-image: var(--cor-secundaria);  
+ }
+
+.logo{
+    width: 10.5rem;
+    height: 5.5rem;
+    background-image: none;
+}
+
+.opcoes{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.botaoLogin{
+    text-decoration: none;
+    text-align: center;
+    color: aqua;
+    background-color: black;
+    border: 1rem solid black;
+    width: 4rem;
+    height: 1rem;
+    border-radius: 1rem;
+    font-family: 'Krona One', sans-serif;
+}
+
+.mensagemPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+}
+
+.chamada{
+    padding: 5%;
+    font-family: 'Krona One', sans-serif;
+    font-size: 3rem;
+    line-height: 1.6;
+}
+
+strong{
+    background-color: #22badc;
+    border: #22badc solid 0.3rem;
+    color: black;
+}
+
+.convenios{
+    color: aqua;
+}
+
+.textoConvenios{
+    color: black;
+    background-color: #22badc;
+    border: #22badc solid 0.3rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 27rem;
+    text-align: end;
+    font-size: 2.5rem;
+    font-family: 'Krona One', sans-serif;
+}
+
+.bancosParceiros{
+    color: black;
+    background-color: #22badc;
+    border: #22badc solid 0.3rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 40rem;
+    text-align: end;
+    font-size: 2.5rem;
+    font-family: 'Krona One', sans-serif;
+}
+
+
+.listaDeConvenios{
+    text-indent: 10rem;
+    height: 20rem;
+}
+
+.item{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+}
+
+.brasao{
+    width: 3.5rem;
+    margin: 0.9rem;
+    vertical-align: middle;
+}
+
+.brasaoSlz{
+    width: 2.9rem;
+    margin: 0.9rem;
+    vertical-align: middle;
+}
+
+.logoBancos{
+    width: 6rem;
+    margin: 0.6rem;
+    vertical-align: middle;
+}
+
+.listaDeBancos{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: 8.5rem;
+    margin: 0.8rem;
+}
+
+.vantagens{
+    display: flex;
+    color:aqua ;
+    font-size: 0.7rem;
+    background-image: var(--cor-secundaria);
+    gap: 1rem;
+    justify-content: center;
+}
+
+.vantagem1 {
+    background-color: black;
+    border: black solid 2rem;
+    border-radius: 1rem;
+    margin: 1.5rem;
+}
+
+.pilares{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: aqua;
+    line-height: 1.5;
+    align-items: center;
+    margin: 1rem;
+}
+
+.pilar{
+    border: 0.2rem solid aqua;
+    margin: 0.9rem;
+}
+
+.iconeValores{
+    margin: 2rem;
+    padding: 1rem;
+    width: 7rem;
+    vertical-align: middle;
+}
+
+.iconeMissao{
+    margin: 2rem;
+    padding: 1rem;
+    width: 7rem;
+    vertical-align: middle;
+}
+
+.iconeVisao{
+    margin: 2rem;
+    padding: 1rem;
+    width: 7rem;
+    vertical-align: middle;
+}
+
+.textoPilares{
+    font-family: 'Krona One', sans-serif;
+    margin: 1rem;
+}
+
+.subTextoPilares{
+    font-family: 'Montserrat', sans-serif;
+    text-indent: center;
+    width: auto;
+    margin: 3rem;
+}
+
+footer{
+    height: auto;
+}
+
+.textoRedes{
+    margin: 1rem;
+}
+
+.redes_links{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    color: aqua;
+    background-image: var(--cor-secundaria);
+    height: 10rem;
+}
+
+.redessociais_links{
+    margin-left: 3rem;
+    border-radius: 0.1rem;
+    transition: 1.2s;
+    cursor: pointer;
+    width: 2.5rem;
+    height: 2.5rem;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.linka{
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+.link {
+    margin-top: 1rem;
+    color: aqua;
+    margin-inline: 0.5rem;
+}
+
+.redessociais_links:hover{
+    transition: 1s;
+    border-radius: 2rem;
+    background-color: aqua;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    background-image: var(--cor-secundaria);
+    font-weight: bold;
+    text-align: center;
+    padding: 0.1rem;
+    font-family: 'Montserrat', sans-serif;
+}
