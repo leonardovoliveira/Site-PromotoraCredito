@@ -21,7 +21,8 @@ body{
     justify-content: center;
     gap: 2rem;
     align-items: center;
-    background-image: var(--cor-secundaria);  
+    background-image: var(--cor-secundaria);
+    background-size: 100rem;
  }
 
 .logo{
@@ -97,6 +98,10 @@ strong{
     font-family: 'Krona One', sans-serif;
 }
 
+.swiper-button-prev,
+.swiper-button-next{
+	display: none;
+}
 
 .listaDeConvenios{
     text-indent: 10rem;
@@ -121,9 +126,10 @@ strong{
 }
 
 .logoBancos{
-    width: 6rem;
-    margin: 0.6rem;
-    vertical-align: middle;
+    width: 15rem;
+    margin: 1rem;
+    justify-content: space-around;
+    margin: 3rem;
 }
 
 .listaDeBancos{
@@ -138,15 +144,14 @@ strong{
     color: var(--cor-fontePrincipal);
     font-size: 0.7rem;
     background-image: var(--cor-secundaria);
-    gap: 1rem;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-.vantagem1 {
+.vantagem1{
     background-color: black;
     border: black solid 2rem;
     border-radius: 1rem;
-    margin: 1.5rem;
+    margin: 3rem;
 }
 
 .pilares{
@@ -161,26 +166,12 @@ strong{
 
 .pilar{
     border: 0.2rem solid var(--cor-fontePrincipal);
-    margin: 0.9rem;
+    margin: 0.7rem;
 }
 
 .iconeValores{
     margin: 2rem;
-    padding: 1rem;
-    width: 7rem;
-    vertical-align: middle;
-}
-
-.iconeMissao{
-    margin: 2rem;
-    padding: 1rem;
-    width: 7rem;
-    vertical-align: middle;
-}
-
-.iconeVisao{
-    margin: 2rem;
-    padding: 1rem;
+    padding: 0.5rem;
     width: 7rem;
     vertical-align: middle;
 }
@@ -251,222 +242,4 @@ footer{
     text-align: center;
     padding: 0.1rem;
     font-family: 'Montserrat', sans-serif;
-}
-
-@media (max-width: 1200px){
-    
-    body{
-        width: auto;
-    }
-    
-    footer{
-        width: auto;
-    }
-    
-    main{
-        width: auto;
-    }
-    
-    .menu{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-auto-rows: 2.7rem;
-        height: 9rem;
-    }
-    
-    .opcoes{
-        margin: 2rem;
-    }
-    
-    .logo{
-        margin-top: 3rem;
-        margin-left: 1rem;
-        width: 9rem;
-    }
-    
-    .mensagemPrincipal{
-        text-align: auto;
-    }
-    
-    .vantagens{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: 7rem;
-        align-items: center;
-    }
-    
-    .vantagem1{
-        width: 13rem;
-        text-align: center;
-    }
-    
-    .bancosParceiros{
-        width: 30rem;
-    }
-
-    .listaDeBancos{
-        grid-template-columns: repeat(5, 2fr);
-        grid-auto-rows: 6.5rem;
-        padding: 1rem;
-    }
-    
-    .pilares{
-        line-height: 1.4;
-        align-items: center;
-        margin: 0.7rem;
-    }
-    
-    .pilar{
-        border: 0.1rem solid var(--cor-fontePrincipal);
-        margin: 0.5rem;
-        width: auto;
-    }
-
-    .iconeValores{
-        margin: 0.3rem;
-        padding: 0.5rem;
-        width: 4rem;
-    }
-
-    .iconeMissao{
-        margin: 0.3rem;
-        padding: 0.5rem;
-        width: 4rem;
-    }
-
-    .iconeVisao{
-        margin: 0.3rem;
-        padding: 0.5rem;
-        width: 4rem;
-    }
-    
-    .textoPilares{
-        font-size: 1rem;
-    }
-    
-    .subTextoPilares{
-        font-size: 0.7rem;
-    }
-
-    .redes_links{
-        display: flex;
-        align-items: center;
-        height: 7rem;
-    }
-
-    .link{
-        display: none;
-    }
-
-    .redessociais_links{
-        align-items: center;
-    }
-}
-
-@media (max-width: 644px){
-    .menu{
-        padding: 0;
-        margin-bottom: 0.5rem;
-        height: 8rem;
-        width: 38rem;
-    }
-
-    .opcoes{
-        margin: 1rem;
-    }
-
-    .chamada{
-        margin-left: 10rem;
-    }
-
-    .textoConvenios{
-    width: 20rem;
-    text-align: end;
-    font-size: 2rem;
-    }
-
-    .listaDeConvenios{
-        text-indent: 10rem;
-        height: 15rem;
-    }
-
-    .item{
-        font-size: 1.2rem;
-    }
-    
-    .brasao{
-        width: 3rem;
-        margin: 0.7rem;
-    }
-    
-    .brasaoSlz{
-        width: 2.5rem;
-        margin: 0.7rem;
-    }
-
-    .bancosParceiros{
-        font-size: 2rem;
-        width: 28rem;
-    }
-
-    .listaDeBancos{
-        grid-template-columns: repeat(4, 1fr);
-        grid-auto-rows: 6rem;
-    }
-
-    .pilares{
-        line-height: 1.1;
-        align-items: flex-start;
-        margin: 0.5rem;
-    }
-    
-    .pilar{
-        width: 18rem;
-        border: 0.2rem solid var(--cor-fontePrincipal);
-        height: 25rem;
-    }
-
-    .iconeValores{
-        margin: 0.1rem;
-        padding: 0.1rem;
-        width: 4rem;
-    }
-
-    .iconeMissao{
-        margin: 0.1rem;
-        padding: 0.1rem;
-        width: 4rem;
-    }
-
-    .iconeVisao{
-        margin: 0.1rem;
-        padding: 0.1rem;
-        width: 4rem;
-    }
-
-    .subTextoPilares{
-        font-size: 0.7rem;
-    }
-
-    .vantagens{
-        width: 38rem;
-    }
-
-    .vantagem1{
-        height: 2rem;
-        width: 10rem;
-        margin: 1rem;
-    }
-
-    .redes_links{
-        width: 38rem;
-    }
-
-    .rodape{
-        width: 38rem;
-    }
-
-    .linka{
-        margin-inline: 0.3rem;
-    }
 }
