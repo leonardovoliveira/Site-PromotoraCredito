@@ -4,7 +4,7 @@
     }
     
     footer{
-        width: auto;
+
     }
     
     main{
@@ -86,7 +86,7 @@
     }
 
     .rodape{
-        width: 38rem;
+        width: 100vw;
     }
 
     .linka{

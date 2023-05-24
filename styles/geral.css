@@ -3,7 +3,8 @@
 :root{
     --cor-principal: linear-gradient(to top, #434343 0%, black 100%);
     --cor-secundaria: linear-gradient(20deg, #22096b 0%, #22badc 100%);;
-    --cor-fontePrincipal: aqua; 
+    --cor-fontePrincipal: aqua;
+    font-family: 'Montserrat', sans-serif;;
 }
 
 *{
@@ -141,17 +142,18 @@ strong{
 
 .vantagens{
     display: flex;
-    color: var(--cor-fontePrincipal);
+    color: var(--cor-principal);
     font-size: 0.7rem;
     background-image: var(--cor-secundaria);
     justify-content: space-around;
 }
 
 .vantagem1{
-    background-color: black;
-    border: black solid 2rem;
+    background-color: whitesmoke;
+    border: whitesmoke solid 2rem;
     border-radius: 1rem;
     margin: 3rem;
+    font-weight: 300;
 }
 
 .pilares{
