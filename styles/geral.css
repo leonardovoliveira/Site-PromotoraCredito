@@ -15,15 +15,17 @@
 
 body{
     background-image: var(--cor-principal);
+    width: 100%;
 }
 
 .menu{
     display: flex;
-    justify-content: center;
-    gap: 2rem;
+    justify-content: space-around;
     align-items: center;
+    width: 100%;
     background-image: var(--cor-secundaria);
-    background-size: 100rem;
+    background-size: 100%;
+    gap: 2px;
  }
 
 .logo{
